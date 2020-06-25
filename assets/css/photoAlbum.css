@@ -1,0 +1,291 @@
+/* 我的相册 */
+.photo-manage-act button {
+    height: 34px;
+    padding: 0 10px;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+  }
+.photo-manage-act button i {
+    margin-right: 4px;
+  }
+.photo-manage-act button.new {
+    background: #46C33B;
+  }
+.photo-manage-act button.update {
+    background: #4D7FFA;
+  }
+.photo-list li {
+    float: left;
+    width: 19%;
+    padding: 0 0 30px;
+    text-align: center;
+    border-radius: 4px;
+    text-align: left;
+    margin-right:1%;
+}
+.photo-list li .pic-wrap {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 210px;
+  
+}
+.photo-list li .pic-no {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 210px;
+  /* line-height: 210px; */
+  background: #EEEEEE;
+  text-align: center;
+}
+.photo-list li .pic-wrap .num,.photo-list li .pic-no .num {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 18px;
+
+}
+.photo-list li .pic-wrap img{
+    width:100%;
+    height: 100%;
+}
+
+.photo-list li .pic-no img {
+  margin-top: 70px;
+}
+
+.photo-list li p.photo-title{
+   margin-top: 10px;
+   color:#010101;
+   font-size:16px;
+}
+.photo-list li p.photo-date{
+    margin-top: 5px;
+    color:#999999;
+    font-size:12px;
+ }
+
+ /* 相册列表 */
+ .albumlist-wrap .albumlist>li {
+  float: left;
+  width: 19%;
+  height: 210px;
+  margin-right: 1%;
+  margin-bottom: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+.albumlist-wrap li img {
+  width: 100%;
+  height: 100%;
+}
+.albumlist-act button {
+  height: 28px;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+.albumlist-act .manage {
+  border: 1px solid #2C97D0;
+  color: #2C97D0;
+  background: #EEF9FF
+}
+.albumlist-act .edit {
+  border: 1px solid #00D075;
+  color: #00D075;
+  background: #F3FDF9
+}
+.albumlist-act .remove {
+  border: 1px solid #333333;
+  color: #333333;
+  background: #FFFFFF
+}
+.albumlist-top .text {
+  color: #333;
+}
+.albumlist-top .text i {
+  font-style: normal;
+  color: #777777;
+}
+
+/* 图片预览 */
+.album-preview-left {
+  width: 65%;
+}
+.gallery {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background-color: #000;
+}
+.gall-canvas {
+	position: absolute;
+	top: 5px;
+	left: 50px;
+	right: 50px;
+	bottom: 55px;
+  text-align: center;
+  overflow: hidden;
+}
+.gall-canvas img {
+	max-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	display: none;
+}
+.gall-tail {
+	position: absolute;
+	left: 50px;
+	right: 50px;
+	bottom: 30px;
+	height: 50px;
+	overflow: hidden;
+}
+.gall-tail ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.gall-tail ul li {
+	float: left;
+	height: 50px;
+	width: 50px;
+	color: transparent;
+    cursor: pointer;
+    list-style: none;
+    opacity: 0.5;
+}
+.gall-tail ul > li + li {
+  margin-left: 1px;
+}
+.gall-tail ul li img {
+	height: 50px;
+	width: 50px;
+}
+.gall-tail ul li.on,
+.gall-tail ul li:hover {
+	opacity: 1;
+}
+
+span.to-prev,
+span.to-next,
+span.thum-back,
+span.thum-forw {
+	position: absolute;
+	display: block;
+	height: 50px;
+	width: 50px;
+	background-image: url(../images/album/icons.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+span.to-prev,
+span.to-next {
+	top: 50%;
+	margin-top: -55px;
+}
+span.to-prev {
+	left: 0;
+	background-position: 0 0;
+}
+span.to-next {
+	right: 0;
+	background-position: 0 -50px;
+}
+span.to-prev:hover {
+	background-position: -50px 0;
+}
+span.to-next:hover {
+	background-position: -50px -50px;
+}
+span.thum-back,
+span.thum-forw {
+	bottom: 24px;
+}
+span.thum-back {
+	left: 0;
+	background-position: 0 -100px;
+}
+span.thum-forw {
+	right: 0;
+	background-position: -50px -100px;
+}
+.album-preview-right {
+  width: 35%;
+  padding: 3%;
+}
+.albumpic-title {
+  margin-bottom: 20px;
+  color: #010101;
+  font-size: 19px;
+}
+.albumpic-title i {
+  font-size: 18px;
+  color: #4D7FFA;
+  vertical-align: text-bottom;
+}
+.album-source {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #777777;
+}
+.album-source i {
+  color: #333;
+  font-style: normal;
+}
+.authority {
+  padding: 10px 0;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+.authority label,.albumpic-info .albumpic-info-title {
+  font-weight: 100;
+  color: #777777;
+  font-size: 16px;
+}
+.radio-wrap input {
+  margin-right: 4px;
+  margin-top: 0;
+  vertical-align: middle;
+}
+.albumpic-info {
+  padding: 10px 0;
+  border-bottom: 1px solid #E5E5E5;
+}
+.albumpic-info .time {
+  color: #333333;
+  font-size: 14px;
+}
+.albumpic-info .no-content {
+  font-size: 14px;
+}
+.albumcomment-list li {
+  margin-bottom: 10px;
+}
+.albumcomment-list li .user-pic {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  margin-right: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.albumcomment-list li .user-pic>img {
+  width: 100%;
+  height: 100%;
+}
+.albumcomment-list li .album-comment  {
+  display: inline-block;
+  width: calc(100% - 50px);
+  padding-top: 8px;
+}
+.album-comment .user {
+  margin-right: 10px;
+  color: #4D7FFA;
+}
+.album-comment .com-con {
+  font-size: 12px;
+  color: #555555;
+}

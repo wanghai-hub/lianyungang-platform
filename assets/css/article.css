@@ -1,0 +1,239 @@
+/* 文章页面 */
+/* 左侧菜单 */
+.module-center-title {
+  position: relative;
+  font-size: 18px;
+}
+.module-center-title::after {
+  position: absolute;
+  margin-left: -15px;
+  left: 50%;
+  bottom: -22px;
+  display: inline-block;
+  content: "";
+  width: 30px;
+  border-bottom: 3px solid #4D7FFA;
+}
+.article-menu .article-nav {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #555555;
+}
+.article-menu i {
+  margin-right: 6px;
+  color: #4D7FFA;
+}
+.article-nav-list {
+  padding-left: 30px;
+}
+.article-nav-list li {
+  padding: 6px 0;
+  
+}
+.article-nav-list li>a {
+  color: #555555;
+}
+.article-nav-list li.active>a {
+  color: #4D7FFA;
+}
+
+/* 文章列表 */
+.article-num {
+  position: absolute;
+  bottom: 8px;
+  padding-left: 16px;
+  color: #777777;
+}
+.search-wrap {
+  display: inline-block;
+  position: relative;
+  width: 450px;
+  height: 38px;
+  margin-bottom: 18px;
+  border: 1px solid #4D7FFA;
+}
+.search-wrap input {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  border: 0;
+  color: #777777;
+}
+.search-wrap i {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #4D7FFA;
+}
+.article-act .comment.greycolor {
+  color: #777777;
+}
+
+.edu-page {
+  text-align: center;
+}
+.pagination>li>a, .pagination>li>span {
+  margin-left: 10px;
+  color: #777777;
+  background: #EEEEEE;
+  border-radius: 2px;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+  background: #4D7FFA;
+  color: #fff;
+}
+
+/* 我的文章分类 */
+.article-manage-act button {
+  height: 34px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+}
+.article-manage-act button i {
+  margin-right: 4px;
+}
+.article-manage-act button.return {
+  background: #4D7FFA;
+}
+.article-manage-act button.order {
+  background: #FF700B;
+}
+.article-manage-act button.new {
+  background: #46C33B;
+}
+.article-table table {
+  width: 100%;
+}
+.article-table table thead th {
+  text-align: center;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 100;
+  border-bottom: 1px solid #D2D2D2;
+}
+.article-table table tbody td {
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+.article-table table tbody tr:nth-child(2n+1) td {
+  background: #F5F7F7;
+  color: #333333;
+}
+.article-table table tbody td button {
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+.article-table table tbody .edit {
+  background: #EEF9FF;
+  border: 1px solid #2C97D0;
+  color: #2C97D0;
+}
+.article-table table tbody .add {
+  background: #F3FDF9;
+  border: 1px solid #00D075;
+  color: #00D075;
+}
+.article-table table tbody .remove {
+  background: #fff;
+  border: 1px solid #A0A0A0;
+  color: #333333;
+}
+
+/* 文章详情页 */
+.module-title .title{
+  color: #010101;
+  font-size: 18px;
+}
+.article-detail-acts button {
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 0;
+}
+.article-detail-acts .edit {
+  background: #4D7FFA;
+  color: #fff;
+}
+.article-detail-acts .remove {
+  background: #fff;
+  border: 1px solid #C9C9C9;
+  border-radius: 4px;
+  color: #777777;
+}
+.article-detail {
+  padding: 20px;
+  border: 1px solid #E5E5E5;
+  color: #555555;
+}
+.article-detail p {
+  margin-bottom: 10px;
+}
+.article-time {
+  padding: 10px 0;
+  text-align: right;
+  color: #777777
+}
+.article-time span:first-child {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #777;
+}
+.article-comment .module-title,.publish-article .module-title{
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.publish-article .title-noborder {
+  font-size: 16px;
+}
+.article-comment .no-comment {
+  padding: 20px 0;
+  text-align: center;
+  color: #777777;
+  border: 1px solid #E5E5E5;
+}
+.article-comment .no-comment img {
+  margin-bottom: 10px;
+}
+
+
+/* 动态页面 */
+.module-title .refresh {
+  height: 38px;
+  line-height: 38px;
+  padding: 0 15px;
+  color: #fff;
+  background: #4D7FFA;
+  border-radius: 4px;
+}
+.module-title .refresh i {
+  margin-right: 4px;
+}
+.dynamic-con .time {
+  color: #777777;
+}
+.article-act .comment .active{
+  color: #4D7FFA
+}
+.article-act .comment span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.load-more {
+  text-align: center;
+}
+.load-more button {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 90px;
+  background: #fff;
+  border: 1px solid #4D7FFA;
+  color: #4D7FFA;
+  font-size: 15px;
+}

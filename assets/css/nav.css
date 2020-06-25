@@ -1,0 +1,62 @@
+.content {
+    box-sizing: border-box;
+    margin-top: 80px;
+    /* height: 1400px; */
+    padding: 20px 20px 100px 20px;
+}
+.frame {
+    width: 100%;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding:20px;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    margin-top: 20px;
+    width: 100%;
+}
+.list .source {
+    width:19% ;
+    margin: 0;
+    height: auto;
+}
+.list .source:nth-child(n+6) {
+    margin-top: 40px;
+}
+.list .source img{
+    width: 100%;
+    margin-bottom: 5px;
+} 
+.list .source h5 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.list .source p {
+    font-size: 12px;
+    margin: 5px 0;
+    color: rgb(127,127,127);
+    border-bottom: 1px solid #ddd;
+}
+.list .source span {
+    font-size: 10px;
+    color: rgb(127,127,127);
+}
+article, aside, details, 
+figcaption, figure, footer, 
+header, hgroup, main, menu, 
+nav, section, summary {
+    text-align: center;
+}
+
+.aui-screen-list-box dl dd {
+    text-align: left;
+}
+.aui-selected-info{
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 23px;
+}

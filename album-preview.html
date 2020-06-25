@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+  <meta name="renderer" content="webkit">
+  <title></title>
+  <link rel="stylesheet" href="assets/css/common/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome-4.7/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/common/common.css" />
+  <link rel="stylesheet" href="assets/css/index.css" />
+  <link rel="stylesheet" href="assets/css/article.css" />
+  <link rel="stylesheet" href="assets/css/photoAlbum.css" />
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="head clearfix">
+    <div class="logo pull-left">
+      <h1>
+        <a href="#">连云港智慧教育云平台</a>
+      </h1>
+    </div>
+    <div class="head-right pull-right">
+
+      <div class="user-wrap pull-right">
+        <ul class="clearfix">
+          <li>
+            <a href="">
+              <i class="user-setting"></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="user-power"></i>
+            </a>
+          </li>
+          <li class="xiala-pop-menu">
+            <a href="javascript:;">
+              <i class="user-xiala" id="userxiala"></i>
+            </a>
+            <div class="xiala-pop" id="xiala-pop">
+              <div class="xiala-pop-title runing">
+                运营服务中心
+                <span class="line"></span>
+              </div>
+              <div class="xiala-pop-list">
+                <ul class="clearfix">
+                  <li>
+                    <a href="">
+                      <span class="xiala-img">
+                        <img src="assets/images/common/menu_pop_pic_01.png" alt="">
+                      </span>
+                      <p class="xiala-text">应用管理</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <span class="xiala-img">
+                        <img src="assets/images/common/menu_pop_pic_01.png" alt="">
+                      </span>
+                      <p class="xiala-text">应用管理</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <span class="xiala-img">
+                        <img src="assets/images/common/menu_pop_pic_01.png" alt="">
+                      </span>
+                      <p class="xiala-text">应用管理</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <span class="xiala-img">
+                        <img src="assets/images/common/menu_pop_pic_01.png" alt="">
+                      </span>
+                      <p class="xiala-text">应用管理</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="username-wrap">
+            <a href="">
+              <i class="user-img">
+                <img src="assets/images/common/user.png" alt="">
+              </i>
+              <p class="user-name">连云港市教育局</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav pull-right">
+        <ul class="clearfix">
+          <li class="active">
+            <a href=""> 工作平台</a>
+          </li>
+          <li>
+            <a href="">
+              空间
+            </a>
+          </li>
+          <li>
+            <a href="">
+              资源
+            </a>
+          </li>
+          <li>
+            <a href="">
+              微课
+            </a>
+          </li>
+          <li>
+            <a href="">
+              活动
+            </a>
+          </li>
+          <li>
+            <a href="">
+              应用
+            </a>
+          </li>
+          <li>
+            <a href="">
+              数据
+            </a>
+          </li>
+          <li>
+            <a href="">
+              地图
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 主要内容 -->
+  <div class="main-con">
+    <!-- tab切换 -->
+    <div class="main-nav marginBottom20">
+      <ul class="clearfix">
+        <li>
+          <a href="index.html">主页</a>
+        </li>
+        <li>
+          <a href="article.html">文章</a>
+        </li>
+        <li>
+          <a href="dynamic.html">动态</a>
+        </li>
+        <li class="active">
+          <a href="photo-album.html">相册</a>
+        </li>
+        <li>
+          <a href="messboard.html">留言板</a>
+        </li>
+      </ul>
+    </div>
+    <div class="index-con clearfix">
+      <div class="articlecon">
+        <!-- 我的文章分类 -->
+        <div class="module marginBottom15">
+          <div class="module-title clearfix">
+            <span class="module-left-title pull-left">我的相册</span>
+            <div class="article-manage-act pull-right">
+              <button class="new">
+                <i class="fa fa-plus-circle"></i>新建相册
+              </button>
+              <button class="return">
+                <i class="fa fa-upload"></i>上传
+              </button>
+            </div>
+          </div>
+          <div class="module-con" style="padding: 0 0 20px 0">
+            <div class="album-preview-con clearfix">
+              <div class="album-preview-left pull-left">
+                <div class="gallery">
+                  <div class="gall-canvas"></div>
+                  <div class="gall-tail"></div>
+                </div>
+              </div>
+              <div class="album-preview-right pull-right">
+                <div class="albumpic-title">
+                  Ting(1).jpg
+                  <i class="fa fa-pencil"></i>
+                </div>
+                <div class="album-source">
+                  连云港教育局的相册：
+                  <i>风景</i>
+                </div>
+                <div class="albumlist-act marginBottom10">
+                  <button class="manage"> 设置封面 </button>
+                  <button class="edit">下载原图 </button>
+                  <button class="remove">删除</button>
+                </div>
+                <div class="authority">
+                  <label for="">询问权限：</label>
+                  <span class="radio-wrap">
+                    <input type="radio" name="auth" id="">我自己&nbsp;&nbsp;
+                    <input type="radio" name="auth" id="" checked>所有人
+                  </span>
+                </div>
+                <div class="albumpic-info">
+                  <p class="albumpic-info-title">照片信息：</p>
+                  <p class="time"> 上传时间：2020-05-12 12:32:12 </p>
+                </div>
+                <div class="albumpic-info">
+                  <p class="albumpic-info-title">评论：</p>
+                  <p class="no-content"> 暂未查询到评论，抢沙发！ </p>
+                  <ul class="albumcomment-list">
+                    <li class="clearfix">
+                      <span class="user-pic pull-left">
+                        <img src="assets/images/common/user-pic.png" alt="">
+                      </span>
+                      <div class="album-comment pull-left">
+                        <span class="user">Admin</span>
+                        <span class="com-con">真是帅气！</span>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <span class="user-pic pull-left">
+                        <img src="assets/images/common/user-pic.png" alt="">
+                      </span>
+                      <div class="album-comment pull-left">
+                        <span class="user">江源梅子</span>
+                        <span
+                          class="com-con">哇塞，好看哦。这里的的风景确实很美很美很美很美哇塞，好看哦。这里的的风景确实很美很美很美很美哇塞，好看哦。这里的的风景确实很美很美很美很美哇塞，好看哦。这里的的风景确实很美很美很美很美</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="shuoshuo marginBottom10">
+                  <textarea name="" id="" placeholder="写点什么......"></textarea>
+                  <div class="clearfix marginBottom20">
+                    <button class="pull-right">发表</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="foot">
+    版权所有：连云港市教育局 / 技术支持：浪潮云 / 备案信息：苏ICP备11000718号-2 / 邮箱：lygdjzx@126.com
+  </div>
+</body>
+<script src="assets/js/common/jquery-1.9.1.min.js"></script>
+<script src="assets/js/common/bootstrap.min.js"></script>
+<script src="assets/js/gallery.js"></script>
+<script src="assets/js/resfilter.js"></script>
+<script>
+  var arr = [{ url: 'assets/images/album/tibet-1.jpg' },
+  { url: 'assets/images/album/tibet-2.jpg' },
+  { url: 'assets/images/album/tibet-3.jpg' },
+  { url: 'assets/images/album/tibet-4.jpg' },
+  { url: 'assets/images/album/tibet-5.jpg' },
+  { url: 'assets/images/album/tibet-6.jpg' },
+  { url: 'assets/images/album/tibet-7.jpg' },
+  { url: 'assets/images/album/tibet-8.jpg' },
+  { url: 'assets/images/album/tibet-9.jpg' },
+  { url: 'assets/images/album/tibet-2.jpg' },
+  { url: 'assets/images/album/tibet-3.jpg' },
+  { url: 'assets/images/album/tibet-4.jpg' },
+  { url: 'assets/images/album/tibet-5.jpg' },
+  { url: 'assets/images/album/tibet-6.jpg' },
+  { url: 'assets/images/album/tibet-7.jpg' },
+  { url: 'assets/images/album/tibet-8.jpg' },
+  { url: 'assets/images/album/tibet-9.jpg' },];
+  gallery.init(arr);
+</script>
+
+</html>
